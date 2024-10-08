@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify-web player: musics for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar ">
+            <div class="nav">
+                <div class="nav-option " style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="libarary">
+                <div class="option">
+                    <div class="lib-option">
+                        <img src="library_icon.png" alt="libarary image">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <!-- card no 1 -->
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">it's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <!-- box no 2 -->
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll kep you updated on new episode</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-contant">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icon">
+                    <img src="backward_icon.png" alt="backward_icon">
+                    <img src="forward_icon.png" alt="forward_icon" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore primium</button>
+                    <button class="badge nav-item dark-badge">
+                        <i class="fa-regular fa-circle-down"></i>
+                        install App
+                    </button>
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+            </div>
+
+            <div class="cards">
+                <a href="#" class="card-heading">Recently played</a>
+                <!-- card one is start here -->
+                <div class="card-container">
+                    <div class="card">
+                        <img src="o saki saki.jpg" alt="cardimage">
+                        <p class="card-title">O Saki Saki (From Batla House"")</p>
+                        <p class="card-info">Neha kakkar,Tulsi Kumar,B Praak,Tanishk Bagchi...
+                        </p>
+                    </div>
+                </div>
+                <!-- card two is end here -->
+
+                <!-- card-container two is start here -->
+                <a href="#" class="card-heading">More like Neha kakkar</a>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="garmi.jpg" alt="cardimage">
+                        <p class="card-title">Garmi (From "Street Dancer...)</p>
+                        <p class="card-info">Badshah, Neha kakkar
+                        </p>
+                    </div>
+                    <!-- card two is satrt here -->
+                    <div class="card">
+                        <img src="mujh se sadi karoge.jpg" alt="cardimage">
+                        <p class="card-title">Mujhse Shaadi Karogi</p>
+                        <p class="card-info">Sonu Nigam, Udit Narayen, Sunidhi Chauhan
+                        </p>
+                    </div>
+                    <!-- end here -->
+                    <!-- start here -->
+                    <div class="card">
+                        <img src="band baaja.jpg" alt="cardimage">
+                        <p class="card-title">Let these songs soundtrack your busy wedding season</p>
+                        <p class="card-info">Playlist. Spotify...
+                        </p>
+                    </div>
+                    <!-- end here -->
+                    <!-- start here -->
+                    <div class="card card-hide2">
+                        <img src="sangeet night.jpg" alt="cardimage">
+                        <p class="card-title">Sangeet Night</p>
+                        <p class="card-info">Playlist. Spotify
+                        </p>
+                    </div>
+                    <!-- end here -->
+
+                    <!-- start here -->
+                    <div class="card card-hide">
+                        <img src="hottest.jpg" alt="cardimage">
+                        <p class="card-title"></p>
+                        <p class="card-info">Hottest Hindi Music Served here. Cover-B
+                        </p>
+                    </div>
+                    <!-- end here -->
+                </div>
+
+                <!-- card container three is start here -->
+
+                <!-- card one start here -->
+                <a href="#" class="card-heading">Recently played</a>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="tum hi aana.jpg" alt="cardimage">
+                        <p class="card-title">Tum Hi Aana (Sad Version) [From...</p>
+                        <p class="card-info">Payel Dev,Jubin Nautiyal, Kunaal Vermaa...
+                        </p>
+                    </div>
+
+                    <!-- card two is start here -->
+                    <div class="card">
+                        <img src="mere baad kisko sataoge.jpg" alt="cardimage">
+                        <p class="card-title">Mere Baad Kisko Sataoge (Lo-Fi)
+                        </p>
+                        <p class="card-info">Madhur Sharma, Nusrat Fateh Ali Khan
+                        </p>
+                    </div>
+                    <!-- card three is start here -->
+                    <div class="card">
+                        <img src="ruposh.jpg" alt="cardimage">
+                        <p class="card-title">Ruposh (Orignal Score)</p>
+                        <p class="card-info">Wajhi Farooki
+                        </p>
+                    </div>
+
+                    <!-- card four is start here -->
+                    <div class="card card-hide2">
+                        <img src="mirza the untold story.jpg" alt="cardimage">
+                        <p class="card-title">Mirza The Untold Story</p>
+                        <p class="card-info">Jatinder Shah, Yo Yo Honey Singh
+                        </p>
+                    </div>
+
+                    <!-- card fifth is start here -->
+                    <div class="card card-hide">
+                        <img src="naio lagda.jpg" alt="cardimage">
+                        <p class="card-title">Naiyo Lagda-From "Kisi Ka Bhai Kisi Ka Jaan"</p>
+                        <p class="card-info">Palak Muchhal, kamaal Khan, Himesh Reshammiya
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer1">
+                    <h3 class="heading">Company</h3>
+                    <div class="contaient1">
+                        <a href="#" class="a1" id="A1">About</a>
+                        <a href="#" class="a2">Jobs</a>
+                        <a href="#" class="a3">For the Record</a>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <h3 class="heading">Communities</h3>
+                    <div class="contaient2">
+                        <a href="#">For Artists</a>
+                        <a href="#">Developers</a>
+                        <a href="#">Advertising</a>
+                        <a href="#">Investors</a>
+                        <a href="#">Vendors</a>
+                    </div>
+                </div>
+                <div class="footer3">
+                    <h3 class="heading">Useful links</h3>
+                    <div class="contaient3">
+                        <a href="#">Support</a>
+                        <a href="#">Free Mobile App</a>
+                    </div>
+                </div>
+                <div class="footer4">
+                    <h3 class="heading">Spotify Plans</h3>
+                    <div class="contaient4">
+                        <a href="#">Premium</a>
+                        <a href="#">Individual</a>
+                        <a href="#">Premium Duo</a>
+                        <a href="#">Premium Family</a>
+                        <a href="#">Premium</a>
+                        <a href="#">Student</a>
+                        <a href="#">Spotify Free</a>
+                    </div>
+                </div>
+                <div class="footer5">
+                    <div class="footer-icon">
+                        <i class="fa-brands fa-instagram" class="first-i"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="side-line">
+                <div class="line" >
+                    <!-- <hr class="line-baar"> -->
+                </div>
+            </div>
+            <footer>
+                <div class="some-info">
+                    <div class="footer-info">
+                        <a href="#" class="footer1-info">Legal</a>
+                        <a href="#" class="footer2-info">Safety & Privacy Center</a>
+                        <a href="#" class="footer3-info"> Privacy Policy</a>
+                        <a href="#" class="footer4-info">Cookies</a>
+                        <a href="#" class="footer5-info">About Ads</a>
+                        <a href="#" class="footer6-info">Accessibility</a>
+                    </div>
+                    <div class="cpyright">
+                        <p>&#169; 2024 Spotify AB</p>
+                    </div>
+                </div>
+
+             </footer>
+        </div>
+        <!-- main contant is end here -->
+
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="tum hi aana.jpg" alt="tum hi aana" class="tumhhiaana">
+                </div>
+                <div class="album_description">
+                    <p class="album-heding">Tum Hi Aana(From "Marjaavaan")</p>
+                    <p class="album_infor">Payal Dev, Jubin Nautiyal, Kunaal Vermaa</p>
+                </div>
+                <div class="album-icon">
+                    <i class="fa-solid fa-circle-plus" class="spacel-icon"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="player_icon1.png" alt="player-imge" class="player-control-icon">
+                    <img src="player_icon2.png" alt="player-imge" class="player-control-icon">
+                    <img src="player_icon3.png" alt="player-imge" class="player-control-icon play-icon"
+                        style="opacity: 1;">
+                    <img src="player_icon4.png" alt="player-imge" class="player-control-icon">
+                    <img src="player_icon5.png" alt="player-imge" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span>00:00</span>
+                    <input type="range" name="r" id="range" min="0" max="100" class="prograss-bar" step="5">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="control-image">
+                    <img src="controls_icon1.png" alt="" class="control_icone" id="icon1">
+                    <img src="controld_icon2.png" alt="" class="control_icone" id="icon2">
+                    <img src="controls_icon3.png" alt="" class="control_icone" id="icon3">
+                    <img src="controls_icon4.png" alt="" class="control_icone" id="icon4">
+                    <img src="controls_icon5.png" alt="" class="control_icone" id="icon5">
+                    <input type="range" name="e" id="range" min="0" max="100" class="control_baar">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center" class="full-screen"></i>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
